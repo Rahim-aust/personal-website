@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+body{
+    font-family: 'Dosis', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+#intro{
+    font-size: 40px;
+    color: rgb(214, 16, 115);
+}
+.link-design{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(231, 19, 83),tomato);
+    padding: 10px 20px;
+    border-radius: 5%;
+    color: white;
+    font-weight: 700;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+p{
+    color: dimgray;
+}
+.header-file{
+    background-image: url("picture/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+
+}
+#description{
+    padding-top: 10%;
+}
+.biography-area{
+    background-image: url("picture/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.latest-area h1{
+    text-align: center;
+}
+.latest-area-innerpic{
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+.latest-area-innerpic img{
+    width: 100%;
+}
+.conclusion{
+    text-align: center;
+    padding-top: 200px;
+}
+.message-area{
+    background-image: linear-gradient(30deg,rgb(196, 2, 76),tomato);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 5% 25%;
+    border-radius: 10px;
+}
+.message-area p{
+    color: white;
+    font-size: 15px;
+}
+.latest-area{
+    background-image: url("picture/latest-work-bg.png");
+    background-repeat: no-repeat;
+
+}
+.picsize{
+    
+    padding: 10px 100px;
+    margin: 10px 100px;
+}
+footer{
+   
+    text-align: center;
+    margin-top: 150px;
+}
